@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Application.UnitTests/Application.UnitTests.csproj" Id="ba06cceb-c1bb-48e5-8274-c9b17be97a10" />
+  <Project Path="Application/Application.csproj" Id="2f116db6-0fda-4a89-ab8e-149ade40b32a" />
+  <Project Path="Domain/Domain.csproj" Id="45095867-2c18-42cb-8435-b242835ee640" />
+  <Project Path="Infrastructure/Infrastructure.csproj" Id="15de3bf2-6fc8-4e62-ba7f-a8f1dd017f5a" />
+  <Project Path="Web.IntegrationTests/Web.IntegrationTests.csproj" Id="43c357df-f2b5-4866-aa26-67b6ca49a15f" />
+  <Project Path="Web/Web.csproj" />
+</Solution>

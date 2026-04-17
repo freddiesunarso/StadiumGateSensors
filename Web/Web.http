@@ -1,0 +1,15 @@
+@baseUrl  = http://localhost:5171
+
+### Get Gate Sensor Results
+GET {{baseUrl}}/gates
+Accept: application/json
+
+### Publish Gate Access
+POST {{baseUrl}}/gates
+Content-Type: application/json
+{
+    "gate": "Gate A",
+    "timestamp": "2023-04-01T08:00:00Z",
+    "numberOfPeople": -1,
+    "type": "enter"
+}
